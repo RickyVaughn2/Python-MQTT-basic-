@@ -1,0 +1,3 @@
+This code connects to the broker at "test.mosquitto.org" on port 1883, subscribes to the topic "example/topic", 
+and sets the on_message callback to the on_message function. The app then publishes the message "Hello World!" to 
+the "example/topic" and enters an infinite loop to wait for incoming messages, which will trigger the on_message callback.
